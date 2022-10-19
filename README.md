@@ -2,7 +2,7 @@
 This is a todo list  app made with react & css and all data is saved in localstorage. 
 
 ## clone this repo or Download zip file
-# run npm install then npm start
+# run npm install
 # then npm start
 
 #screenshot
