@@ -33,7 +33,17 @@ input{
   border: none;
   font-size: large;
 }
-
+.searchForm{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.searchForm input{
+  width: 90%;
+  padding: 12px;
+  border-radius: 20px;
+}
 button{
   border: none;
   padding: 10px;
