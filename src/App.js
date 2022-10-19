@@ -31,6 +31,7 @@ useEffect(() => {
       setTodos([{ id: `${todo}-${Date.now()}`, todo }, ...todos]);
       setTodo("");
     }
+
   };
 
   const handleDelete = (id) => {
@@ -77,6 +78,7 @@ useEffect(() => {
               <button onClick={(e) => handleDelete(tds.id)}>Delete</button>
             </li>
           ))}
+          <span className="list-length">{todos.length} {todos.length > 0 && todos.length > 1?"Lists":"List"}</span>
         </ul>
       </div>
     </div>
